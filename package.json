@@ -3,7 +3,9 @@
     "version": "0.0.31",
     "description": "A specialized server for AngularJS applications",
     "author": "Martin Atkins <mart@degeneration.co.uk>",
-    "keywords": ["angularjs"],
+    "keywords": [
+        "angularjs"
+    ],
     "repository": {
         "type": "git",
         "url": "git://github.com/saymedia/angularjs-server.git"
@@ -15,15 +17,15 @@
     },
     "dependencies": {
         "angularcontext": "0.0.23",
-        "escape-html": "1.0.0",
-        "express": "~3.4.4",
-        "local-xmlhttprequest": "^1.5.1"
+        "escape-html": "1.0.3",
+        "express": "~4.16.4",
+        "local-xmlhttprequest": "^2.0.0"
     },
     "devDependencies": {
         "nodeunit": "*",
-        "jshint": "2.1.11"
+        "jshint": "2.10.2"
     },
-    "engines" : {
-        "node" : ">=4"
+    "engines": {
+        "node": ">=4"
     }
 }
